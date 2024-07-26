@@ -2,7 +2,7 @@
 //  ImmersiveView.swift
 //  VisionOS Course Trial 01
 //
-//  Created by 周铁 on 2024/7/26.
+//  Created by Clare Zhou on 2024/7/26.
 //
 
 import SwiftUI

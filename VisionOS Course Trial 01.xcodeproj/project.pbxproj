@@ -13,6 +13,20 @@
 		EB19A7382C539FB2009ACF21 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB19A7372C539FB2009ACF21 /* ImmersiveView.swift */; };
 		EB19A73A2C539FB3009ACF21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB19A7392C539FB3009ACF21 /* Assets.xcassets */; };
 		EB19A73D2C539FB3009ACF21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB19A73C2C539FB3009ACF21 /* Preview Assets.xcassets */; };
+		EB19A74F2C53A26C009ACF21 /* Mars.usdz in Resources */ = {isa = PBXBuildFile; fileRef = EB19A7442C53A266009ACF21 /* Mars.usdz */; };
+		EB19A7502C53A26C009ACF21 /* Moon.usdz in Resources */ = {isa = PBXBuildFile; fileRef = EB19A7452C53A267009ACF21 /* Moon.usdz */; };
+		EB19A7512C53A26C009ACF21 /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = EB19A7462C53A268009ACF21 /* Earth.usdz */; };
+		EB19A7522C53A26C009ACF21 /* Pluto.usdz in Resources */ = {isa = PBXBuildFile; fileRef = EB19A7472C53A268009ACF21 /* Pluto.usdz */; };
+		EB19A7532C53A26C009ACF21 /* Uranus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = EB19A7482C53A269009ACF21 /* Uranus.usdz */; };
+		EB19A7542C53A26C009ACF21 /* Saturn.usdz in Resources */ = {isa = PBXBuildFile; fileRef = EB19A7492C53A269009ACF21 /* Saturn.usdz */; };
+		EB19A7552C53A26C009ACF21 /* Neptune.usdz in Resources */ = {isa = PBXBuildFile; fileRef = EB19A74A2C53A26A009ACF21 /* Neptune.usdz */; };
+		EB19A7562C53A26C009ACF21 /* Jupiter.usdz in Resources */ = {isa = PBXBuildFile; fileRef = EB19A74B2C53A26A009ACF21 /* Jupiter.usdz */; };
+		EB19A7572C53A26C009ACF21 /* Venus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = EB19A74C2C53A26B009ACF21 /* Venus.usdz */; };
+		EB19A7582C53A26C009ACF21 /* Mercury.usdz in Resources */ = {isa = PBXBuildFile; fileRef = EB19A74D2C53A26B009ACF21 /* Mercury.usdz */; };
+		EB19A7592C53A26C009ACF21 /* Sun.usdz in Resources */ = {isa = PBXBuildFile; fileRef = EB19A74E2C53A26C009ACF21 /* Sun.usdz */; };
+		EB19A75E2C53A43C009ACF21 /* Solar System.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB19A75D2C53A43C009ACF21 /* Solar System.swift */; };
+		EB19A7602C53A44E009ACF21 /* Planets.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB19A75F2C53A44E009ACF21 /* Planets.swift */; };
+		EB19A7642C53A9FB009ACF21 /* Earth.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB19A7632C53A9FB009ACF21 /* Earth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,20 @@
 		EB19A7392C539FB3009ACF21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB19A73C2C539FB3009ACF21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB19A73E2C539FB3009ACF21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB19A7442C53A266009ACF21 /* Mars.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Mars.usdz; sourceTree = "<group>"; };
+		EB19A7452C53A267009ACF21 /* Moon.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Moon.usdz; sourceTree = "<group>"; };
+		EB19A7462C53A268009ACF21 /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Earth.usdz; sourceTree = "<group>"; };
+		EB19A7472C53A268009ACF21 /* Pluto.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Pluto.usdz; sourceTree = "<group>"; };
+		EB19A7482C53A269009ACF21 /* Uranus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Uranus.usdz; sourceTree = "<group>"; };
+		EB19A7492C53A269009ACF21 /* Saturn.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Saturn.usdz; sourceTree = "<group>"; };
+		EB19A74A2C53A26A009ACF21 /* Neptune.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Neptune.usdz; sourceTree = "<group>"; };
+		EB19A74B2C53A26A009ACF21 /* Jupiter.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Jupiter.usdz; sourceTree = "<group>"; };
+		EB19A74C2C53A26B009ACF21 /* Venus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Venus.usdz; sourceTree = "<group>"; };
+		EB19A74D2C53A26B009ACF21 /* Mercury.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Mercury.usdz; sourceTree = "<group>"; };
+		EB19A74E2C53A26C009ACF21 /* Sun.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Sun.usdz; sourceTree = "<group>"; };
+		EB19A75D2C53A43C009ACF21 /* Solar System.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Solar System.swift"; sourceTree = "<group>"; };
+		EB19A75F2C53A44E009ACF21 /* Planets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planets.swift; sourceTree = "<group>"; };
+		EB19A7632C53A9FB009ACF21 /* Earth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Earth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +88,11 @@
 			children = (
 				EB19A7332C539FB2009ACF21 /* VisionOS_Course_Trial_01App.swift */,
 				EB19A7352C539FB2009ACF21 /* ContentView.swift */,
+				EB19A75D2C53A43C009ACF21 /* Solar System.swift */,
+				EB19A75F2C53A44E009ACF21 /* Planets.swift */,
+				EB19A7632C53A9FB009ACF21 /* Earth.swift */,
 				EB19A7372C539FB2009ACF21 /* ImmersiveView.swift */,
+				EB19A75A2C53A276009ACF21 /* Models */,
 				EB19A7392C539FB3009ACF21 /* Assets.xcassets */,
 				EB19A73E2C539FB3009ACF21 /* Info.plist */,
 				EB19A73B2C539FB3009ACF21 /* Preview Content */,
@@ -82,6 +114,24 @@
 				EB19A73C2C539FB3009ACF21 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB19A75A2C53A276009ACF21 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB19A7462C53A268009ACF21 /* Earth.usdz */,
+				EB19A74B2C53A26A009ACF21 /* Jupiter.usdz */,
+				EB19A7442C53A266009ACF21 /* Mars.usdz */,
+				EB19A74D2C53A26B009ACF21 /* Mercury.usdz */,
+				EB19A7452C53A267009ACF21 /* Moon.usdz */,
+				EB19A74A2C53A26A009ACF21 /* Neptune.usdz */,
+				EB19A7472C53A268009ACF21 /* Pluto.usdz */,
+				EB19A7492C53A269009ACF21 /* Saturn.usdz */,
+				EB19A74E2C53A26C009ACF21 /* Sun.usdz */,
+				EB19A7482C53A269009ACF21 /* Uranus.usdz */,
+				EB19A74C2C53A26B009ACF21 /* Venus.usdz */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +196,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB19A73D2C539FB3009ACF21 /* Preview Assets.xcassets in Resources */,
+				EB19A7562C53A26C009ACF21 /* Jupiter.usdz in Resources */,
+				EB19A7532C53A26C009ACF21 /* Uranus.usdz in Resources */,
+				EB19A7512C53A26C009ACF21 /* Earth.usdz in Resources */,
+				EB19A74F2C53A26C009ACF21 /* Mars.usdz in Resources */,
+				EB19A7592C53A26C009ACF21 /* Sun.usdz in Resources */,
+				EB19A7542C53A26C009ACF21 /* Saturn.usdz in Resources */,
+				EB19A7572C53A26C009ACF21 /* Venus.usdz in Resources */,
+				EB19A7552C53A26C009ACF21 /* Neptune.usdz in Resources */,
+				EB19A7502C53A26C009ACF21 /* Moon.usdz in Resources */,
+				EB19A7522C53A26C009ACF21 /* Pluto.usdz in Resources */,
 				EB19A73A2C539FB3009ACF21 /* Assets.xcassets in Resources */,
+				EB19A7582C53A26C009ACF21 /* Mercury.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,8 +219,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB19A7362C539FB2009ACF21 /* ContentView.swift in Sources */,
+				EB19A7602C53A44E009ACF21 /* Planets.swift in Sources */,
+				EB19A7642C53A9FB009ACF21 /* Earth.swift in Sources */,
 				EB19A7342C539FB2009ACF21 /* VisionOS_Course_Trial_01App.swift in Sources */,
 				EB19A7382C539FB2009ACF21 /* ImmersiveView.swift in Sources */,
+				EB19A75E2C53A43C009ACF21 /* Solar System.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
