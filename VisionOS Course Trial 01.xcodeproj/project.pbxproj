@@ -29,6 +29,8 @@
 		EB19A7642C53A9FB009ACF21 /* Earth.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB19A7632C53A9FB009ACF21 /* Earth.swift */; };
 		EB1BB6222C54089C00287A5A /* Planets_Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1BB6212C54089C00287A5A /* Planets_Info.swift */; };
 		EB1BB6242C540C9700287A5A /* Planets_Detail_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1BB6232C540C9700287A5A /* Planets_Detail_View.swift */; };
+		EBF4FE8E2C55490600FC4244 /* EarthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF4FE8D2C55490600FC4244 /* EarthModel.swift */; };
+		EBF4FE902C55491200FC4244 /* MoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF4FE8F2C55491200FC4244 /* MoonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		EB19A7632C53A9FB009ACF21 /* Earth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Earth.swift; sourceTree = "<group>"; };
 		EB1BB6212C54089C00287A5A /* Planets_Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planets_Info.swift; sourceTree = "<group>"; };
 		EB1BB6232C540C9700287A5A /* Planets_Detail_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planets_Detail_View.swift; sourceTree = "<group>"; };
+		EBF4FE8D2C55490600FC4244 /* EarthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthModel.swift; sourceTree = "<group>"; };
+		EBF4FE8F2C55491200FC4244 /* MoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				EB1BB6212C54089C00287A5A /* Planets_Info.swift */,
 				EB1BB6232C540C9700287A5A /* Planets_Detail_View.swift */,
 				EB19A7632C53A9FB009ACF21 /* Earth.swift */,
+				EBF4FE8F2C55491200FC4244 /* MoonView.swift */,
+				EBF4FE8D2C55490600FC4244 /* EarthModel.swift */,
 				EB19A7372C539FB2009ACF21 /* ImmersiveView.swift */,
 				EB19A75A2C53A276009ACF21 /* Models */,
 				EB19A7392C539FB3009ACF21 /* Assets.xcassets */,
@@ -227,7 +233,9 @@
 				EB19A7362C539FB2009ACF21 /* ContentView.swift in Sources */,
 				EB19A7602C53A44E009ACF21 /* Planets.swift in Sources */,
 				EB19A7642C53A9FB009ACF21 /* Earth.swift in Sources */,
+				EBF4FE902C55491200FC4244 /* MoonView.swift in Sources */,
 				EB19A7342C539FB2009ACF21 /* VisionOS_Course_Trial_01App.swift in Sources */,
+				EBF4FE8E2C55490600FC4244 /* EarthModel.swift in Sources */,
 				EB1BB6222C54089C00287A5A /* Planets_Info.swift in Sources */,
 				EB19A7382C539FB2009ACF21 /* ImmersiveView.swift in Sources */,
 				EB19A75E2C53A43C009ACF21 /* Solar System.swift in Sources */,

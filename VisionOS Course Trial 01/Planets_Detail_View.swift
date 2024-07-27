@@ -27,7 +27,8 @@ struct Planets_Detail_View: View {
                     .padding()
                     .navigationTitle(planet.name)
             }
-            .frame(width: 500, height: 1000)
+            .frame(width: 550, height: 1000)
+            .padding(.leading,30)
             
             // Display model
             if let planetModel = planet.modelEntity {
@@ -37,6 +38,7 @@ struct Planets_Detail_View: View {
                 }
                 // Use the planet id to force the view to update
                 .id(planet.id)
+                .padding(.trailing,80)
             } else {
                 Text("Model not loaded.")
                 }

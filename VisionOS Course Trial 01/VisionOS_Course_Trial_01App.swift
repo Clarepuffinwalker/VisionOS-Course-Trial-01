@@ -26,6 +26,16 @@ struct VisionOS_Course_Trial_01App: App {
         WindowGroup(id:"earth")  {
             Earth()
         }
+        
+        WindowGroup(id:"earthModel")  {
+            EarthModel()
+        }
+        .windowStyle(.volumetric)
+        
+        WindowGroup(id:"moonModel")  {
+            MoonView()
+        }
+        .windowStyle(.volumetric)
 
         ImmersiveSpace(id: "ImmersiveSpace") {
             ImmersiveView()
