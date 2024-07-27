@@ -13,6 +13,7 @@ struct VisionOS_Course_Trial_01App: App {
         WindowGroup(id:"tab") {
             ContentView()
         }
+        .defaultSize(width: 1280, height: 720)
         
         WindowGroup(id:"solar")  {
             Solar_System()

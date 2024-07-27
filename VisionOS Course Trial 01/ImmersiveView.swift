@@ -11,12 +11,16 @@ import RealityKitContent
 
 struct ImmersiveView: View {
     var body: some View {
+        HStack{
+            Text("Placeholder")
+        }
+        /*
         RealityView { content in
             // Add the initial RealityKit content
-            if let scene = try? await Entity(named: "Immersive", in: realityKitContentBundle) {
-                content.add(scene)
+            if let model = try? await Entity(named: "Immersive", in: realityKitContentBundle) {
+                content.add(model)
             }
-        }
+        }*/
     }
 }
 
