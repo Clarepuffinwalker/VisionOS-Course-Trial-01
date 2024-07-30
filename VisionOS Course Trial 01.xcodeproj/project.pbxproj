@@ -29,8 +29,14 @@
 		EB19A7642C53A9FB009ACF21 /* Earth.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB19A7632C53A9FB009ACF21 /* Earth.swift */; };
 		EB1BB6222C54089C00287A5A /* Planets_Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1BB6212C54089C00287A5A /* Planets_Info.swift */; };
 		EB1BB6242C540C9700287A5A /* Planets_Detail_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1BB6232C540C9700287A5A /* Planets_Detail_View.swift */; };
-		EBF4FE8E2C55490600FC4244 /* EarthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF4FE8D2C55490600FC4244 /* EarthModel.swift */; };
-		EBF4FE902C55491200FC4244 /* MoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF4FE8F2C55491200FC4244 /* MoonView.swift */; };
+		EBE9333D2C592C13000E846D /* Light.skybox in Resources */ = {isa = PBXBuildFile; fileRef = EBE9333C2C592C13000E846D /* Light.skybox */; };
+		EBE9333F2C59316A000E846D /* 4KSpace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBE9333E2C59316A000E846D /* 4KSpace.jpg */; };
+		EBE933412C593279000E846D /* Immersive Earth.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE933402C593279000E846D /* Immersive Earth.swift */; };
+		EBE933432C59332C000E846D /* BellerbyCoWorldPrussianBlue.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EBE933422C59332C000E846D /* BellerbyCoWorldPrussianBlue.jpeg */; };
+		EBE933452C593D02000E846D /* MovementComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE933442C593D02000E846D /* MovementComponent.swift */; };
+		EBE933472C593D2B000E846D /* MovementSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE933462C593D2B000E846D /* MovementSystem.swift */; };
+		EBE9334C2C5940DF000E846D /* Earth_Moon_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE9334B2C5940DF000E846D /* Earth_Moon_Model.swift */; };
+		EBE9334E2C594241000E846D /* ImmersiveViewArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE9334D2C594241000E846D /* ImmersiveViewArchive.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,8 +64,14 @@
 		EB19A7632C53A9FB009ACF21 /* Earth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Earth.swift; sourceTree = "<group>"; };
 		EB1BB6212C54089C00287A5A /* Planets_Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planets_Info.swift; sourceTree = "<group>"; };
 		EB1BB6232C540C9700287A5A /* Planets_Detail_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planets_Detail_View.swift; sourceTree = "<group>"; };
-		EBF4FE8D2C55490600FC4244 /* EarthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthModel.swift; sourceTree = "<group>"; };
-		EBF4FE8F2C55491200FC4244 /* MoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonView.swift; sourceTree = "<group>"; };
+		EBE9333C2C592C13000E846D /* Light.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = Light.skybox; sourceTree = SOURCE_ROOT; };
+		EBE9333E2C59316A000E846D /* 4KSpace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4KSpace.jpg; path = Light.skybox/4KSpace.jpg; sourceTree = SOURCE_ROOT; };
+		EBE933402C593279000E846D /* Immersive Earth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Immersive Earth.swift"; sourceTree = "<group>"; };
+		EBE933422C59332C000E846D /* BellerbyCoWorldPrussianBlue.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BellerbyCoWorldPrussianBlue.jpeg; path = Models/BellerbyCoWorldPrussianBlue.jpeg; sourceTree = "<group>"; };
+		EBE933442C593D02000E846D /* MovementComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementComponent.swift; sourceTree = "<group>"; };
+		EBE933462C593D2B000E846D /* MovementSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementSystem.swift; sourceTree = "<group>"; };
+		EBE9334B2C5940DF000E846D /* Earth_Moon_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Earth_Moon_Model.swift; sourceTree = "<group>"; };
+		EBE9334D2C594241000E846D /* ImmersiveViewArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveViewArchive.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +113,14 @@
 				EB1BB6212C54089C00287A5A /* Planets_Info.swift */,
 				EB1BB6232C540C9700287A5A /* Planets_Detail_View.swift */,
 				EB19A7632C53A9FB009ACF21 /* Earth.swift */,
-				EBF4FE8F2C55491200FC4244 /* MoonView.swift */,
-				EBF4FE8D2C55490600FC4244 /* EarthModel.swift */,
+				EBE9334B2C5940DF000E846D /* Earth_Moon_Model.swift */,
 				EB19A7372C539FB2009ACF21 /* ImmersiveView.swift */,
+				EBE933402C593279000E846D /* Immersive Earth.swift */,
+				EBE933482C593D56000E846D /* ECS Movement */,
+				EBE933512C594292000E846D /* Archive */,
+				EBE933422C59332C000E846D /* BellerbyCoWorldPrussianBlue.jpeg */,
+				EBE9333E2C59316A000E846D /* 4KSpace.jpg */,
+				EBE9333C2C592C13000E846D /* Light.skybox */,
 				EB19A75A2C53A276009ACF21 /* Models */,
 				EB19A7392C539FB3009ACF21 /* Assets.xcassets */,
 				EB19A73E2C539FB3009ACF21 /* Info.plist */,
@@ -144,6 +161,23 @@
 				EB19A74C2C53A26B009ACF21 /* Venus.usdz */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		EBE933482C593D56000E846D /* ECS Movement */ = {
+			isa = PBXGroup;
+			children = (
+				EBE933442C593D02000E846D /* MovementComponent.swift */,
+				EBE933462C593D2B000E846D /* MovementSystem.swift */,
+			);
+			path = "ECS Movement";
+			sourceTree = "<group>";
+		};
+		EBE933512C594292000E846D /* Archive */ = {
+			isa = PBXGroup;
+			children = (
+				EBE9334D2C594241000E846D /* ImmersiveViewArchive.swift */,
+			);
+			path = Archive;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,9 +247,12 @@
 				EB19A7512C53A26C009ACF21 /* Earth.usdz in Resources */,
 				EB19A74F2C53A26C009ACF21 /* Mars.usdz in Resources */,
 				EB19A7592C53A26C009ACF21 /* Sun.usdz in Resources */,
+				EBE9333D2C592C13000E846D /* Light.skybox in Resources */,
 				EB19A7542C53A26C009ACF21 /* Saturn.usdz in Resources */,
+				EBE933432C59332C000E846D /* BellerbyCoWorldPrussianBlue.jpeg in Resources */,
 				EB19A7572C53A26C009ACF21 /* Venus.usdz in Resources */,
 				EB19A7552C53A26C009ACF21 /* Neptune.usdz in Resources */,
+				EBE9333F2C59316A000E846D /* 4KSpace.jpg in Resources */,
 				EB19A7502C53A26C009ACF21 /* Moon.usdz in Resources */,
 				EB19A7522C53A26C009ACF21 /* Pluto.usdz in Resources */,
 				EB19A73A2C539FB3009ACF21 /* Assets.xcassets in Resources */,
@@ -231,12 +268,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB19A7362C539FB2009ACF21 /* ContentView.swift in Sources */,
+				EBE9334C2C5940DF000E846D /* Earth_Moon_Model.swift in Sources */,
 				EB19A7602C53A44E009ACF21 /* Planets.swift in Sources */,
+				EBE9334E2C594241000E846D /* ImmersiveViewArchive.swift in Sources */,
 				EB19A7642C53A9FB009ACF21 /* Earth.swift in Sources */,
-				EBF4FE902C55491200FC4244 /* MoonView.swift in Sources */,
+				EBE933472C593D2B000E846D /* MovementSystem.swift in Sources */,
+				EBE933452C593D02000E846D /* MovementComponent.swift in Sources */,
 				EB19A7342C539FB2009ACF21 /* VisionOS_Course_Trial_01App.swift in Sources */,
-				EBF4FE8E2C55490600FC4244 /* EarthModel.swift in Sources */,
 				EB1BB6222C54089C00287A5A /* Planets_Info.swift in Sources */,
+				EBE933412C593279000E846D /* Immersive Earth.swift in Sources */,
 				EB19A7382C539FB2009ACF21 /* ImmersiveView.swift in Sources */,
 				EB19A75E2C53A43C009ACF21 /* Solar System.swift in Sources */,
 				EB1BB6242C540C9700287A5A /* Planets_Detail_View.swift in Sources */,

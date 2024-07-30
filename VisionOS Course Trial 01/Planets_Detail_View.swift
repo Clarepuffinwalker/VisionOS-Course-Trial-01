@@ -11,11 +11,8 @@ import RealityKit
 
 struct Planets_Detail_View: View {
     
-    //@State var planet: Planets_Info
     var planet: Planets_Info
-        //前面总NavigationSplit & Link 里的定义的单数
-        //PlanetsView中var planets: [Planets_Info] = [] 单数
-        //@State var selectedPlanet: Planets_Info?
+    
         @State private var model: Entity?
     
     var body: some View {

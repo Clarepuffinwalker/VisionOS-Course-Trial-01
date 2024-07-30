@@ -10,11 +10,14 @@ import RealityKit
 
 struct Earth: View {
     
-    @State private var showEarthVolume = false
-    @State private var showMoonVolume = false
-
+    @State private var showEarthMoonVolume = false
+    @State private var showImmersiveEarth = false
+    @State private var immersiveEarthIsShown = false
+    
     @Environment(\.openWindow) var openWindow
     @Environment(\.dismissWindow) var dismissWindow
+    @Environment(\.openImmersiveSpace) var openImmersiveSpace
+    @Environment(\.dismissImmersiveSpace) var dismissImmersiveSpace
     
     var body: some View {
         
@@ -33,37 +36,49 @@ struct Earth: View {
             .font(.callout)
             .frame(width:1000, height:200)
             .padding(.bottom,50)
-
+            
             
             HStack{
-                Toggle("Show Earth Volume", isOn: $showEarthVolume)
-                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                    .onChange(of:showEarthVolume){_,newValue in
+                //Toggle01
+                Toggle("Show Earth & Moon", isOn: $showEarthMoonVolume)
+                    .font(.title)
+                    .onChange(of:showEarthMoonVolume){_,newValue in
                         if newValue {
-                            openWindow(id:"earthModel")
+                            openWindow(id:"earthMoonModel")
                         }
                         else {
-                            dismissWindow(id:"earthModel")
+                            dismissWindow(id:"earthMoonModel")
                         }
                     }
                     .toggleStyle(.button)
                     .padding(.trailing,50)
                 
-                Toggle("Show Moon Volume", isOn: $showMoonVolume)
+                //Toggle02
+                Toggle("Get Into Earth (rotatable)", isOn: $showImmersiveEarth)
                     .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                    .onChange(of:showMoonVolume){_,newValue in
-                        if newValue {
-                            openWindow(id:"moonModel")
-                        }
-                        else {
-                            dismissWindow(id:"moonModel")
-                        }
-                    }
                     .toggleStyle(.button)
-                    .padding(.trailing,50)
             }
+            .padding(.bottom,50)
+            .onChange(of: showImmersiveEarth) { _, newValue in
+                Task {
+                    if newValue {
+                        switch await openImmersiveSpace(id: "ImmersiveEarth") {
+                        case .opened:
+                            immersiveEarthIsShown = true
+                        case .error, .userCancelled:
+                            fallthrough
+                        @unknown default:
+                            immersiveEarthIsShown = false
+                            showImmersiveEarth = false
+                        }
+                    } else if immersiveEarthIsShown {
+                        await dismissImmersiveSpace()
+                        immersiveEarthIsShown = false
+                    }
+                }
+            }
+            
         }
-                    
     }
 }
 

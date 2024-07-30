@@ -38,7 +38,7 @@ struct Solar_System: View {
                     
                     guard let sun = try? await Entity(named: "Sun")
                     else {
-                        print("Model not loaded.")
+                        print("Sun not loaded.")
                         return
                     }
                     sun.position = [0,0,-0.2]
